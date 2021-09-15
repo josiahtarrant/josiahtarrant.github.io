@@ -1,0 +1,49 @@
+* {
+    text-align: center;
+}
+#subheader {
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+}
+#about {
+    color: blue;
+    font-size: 25px;
+    font-weight: bolder;
+}
+#rankingtable {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+.menu {
+background-color: blue;
+overflow: hidden;
+}
+.menu a {
+float: left;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 25px;
+}
+.menu a:hover {
+background-color: gray;
+color: black;
+}
+.menu a.active {
+background-color: black;
+color: white;
+}
+a {
+    color: orange;
+}
+span {
+    color:red
+}        
+@media only screen and (max-width: 600px) {
+    img {
+        height: 200;
+    }
+  }
