@@ -44,6 +44,6 @@ span {
 }        
 @media only screen and (max-width: 600px) {
     img {
-        height: 200;
+        height: 200px;
     }
   }
